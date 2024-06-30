@@ -10,7 +10,7 @@
                 "-Wall",
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}/src/cpp/*.cpp",
+                "${workspaceFolder}/src/cpp/**/*.cpp",
                 //"${workspaceFolder}/src/c/*.c",
                 "-o",
                 "${workspaceFolder}/out/main",
